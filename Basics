@@ -109,3 +109,7 @@ but also if we realod page dosent show anything then inspect and see error it sa
 and than we can see output.
 
 => Rule in jsx only return a single element.so return it insite the div tag or empty tag.
+
+#Props
+
+props makes the componenet reusable.

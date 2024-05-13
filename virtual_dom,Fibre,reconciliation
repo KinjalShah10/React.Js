@@ -1,0 +1,6 @@
+In Main.js the createroot method is used as for the creation a dom just like its there in browser.
+it used for comparing the main dom and the recently created dom and do changes which are need in ui.
+
+harr ui ko instatly update krna jaruri nahi hai toh kuch algo lagake hum kar sakte hai kuch changes.
+
+Search for react fibre and go to github repo of acdlite.
