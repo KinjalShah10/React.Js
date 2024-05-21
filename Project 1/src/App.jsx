@@ -1,7 +1,5 @@
 import { useState } from 'react'
 
-import './App.css'
-
 function App() {
 
 // used to change the ui in the raect
