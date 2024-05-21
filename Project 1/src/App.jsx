@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState } from 'react' // use state changes the ui in the batch wise take the whole ui as 1 batch and chnge the whole.
 
 function App() {
 
@@ -23,9 +23,9 @@ function App() {
       <h1>Hello Jiii</h1>
       <h2>counter value: 5 </h2>
 
-      <button onClick={Add_value}>Add Value {counter}</button><br>
+      <button onClick={Add_value}>Add Value = {counter} </button><br>
       </br>
-      <button onClick={Remove_value}>Remove Value {counter}</button>
+      <button onClick={Remove_value}>Remove Value = {counter} </button>
 
       <p>footer:{counter}</p>
     </>
