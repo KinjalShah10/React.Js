@@ -2,6 +2,10 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 
+//what is we write our function here only? 
+//=> it will work like this MyApp() also but not optimized.
+//=> and what if we made our custom react like the down comment we can execute the object by writing only its name.
+
 function MyApp(){
   return(
     <div>
@@ -20,7 +24,10 @@ function MyApp(){
 //   },
 //   children: 'click me to visit google'
 // }
+// also will not run if direct write name to call this object bcz here the edrror is its expecting some args so need to write particular coe for those args.
 
+
+//create the element by itself react only.
 const anotherUser = "HEloo User"
 const ReactElement = React.createElement(
   'a',{href:"https://google.com",target:"_blank"},
