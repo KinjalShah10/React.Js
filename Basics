@@ -51,7 +51,7 @@ dir => we need to see package.json is there or not.
 now yes if its there then write
 cmd:
 =>npm run start
-now also run:
+now also run: (For Production)
 =>npm run buid
 
 
@@ -67,6 +67,9 @@ now if we see there is no node folder in this so will do:
 =>npm i //this will install all the packages.
 =>npm run dev
 
+# react is a Library
+Library is a cool dude jinko kuch bhi chlta hai 
+but Frame work is a military jinko particular chez chiaye kaam karne ke liye.
 # with every react project we have readme.md file and recomended to update it with every new project.
 
 #SRC:
@@ -104,7 +107,7 @@ JSX is nothing only js its for show off only in react.
 
 Now make one file in vite -> src -> sample.js or jsx , jsx is mainly made to create a componenet in react.
 
-when we made it and make a function in it and tghen export it into both main and app , in app it will first return some error bcz we have used .js  but vite tells that when we made a componenet we must give .jsx as an extension.
+when we made it and make a function in it and then export it into both main and app , in app it will first return some error bcz we have used .js  but vite tells that when we made a componenet we must give .jsx as an extension.
 but also if we realod page dosent show anything then inspect and see error it says make it in the upper case.
 and than we can see output.
 
