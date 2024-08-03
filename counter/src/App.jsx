@@ -4,10 +4,6 @@ function App() {
 
 // used to change the ui in the react use state takes one value as a default in it.
   let[counter,setCounter] = useState(5) //counter is the value before the change when the value is changed the set counter updates the value.
-  if (counter < 0)  ;
-  if (counter > 20) ;
-
-  
 
   //let counter = 5;
   const Add_value= () =>{
