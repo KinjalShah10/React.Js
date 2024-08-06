@@ -13,6 +13,18 @@ function App() {
     //counter=counter + 1
     setCounter(counter+1)
     //console.log("clicked",Math.random)
+    //what is the interviewer says that
+    // setCounter(counter+1)
+    // setCounter(counter+1)
+    // setCounter(counter+1)
+    // setCounter(counter+1)
+    // Will it be increased directly to 19 ? => no bcz set counter or any method takes the changes in ui in the form of batches so it will see that the changes done are same so will increase only one time.
+    //what if we want to increase by 4?
+    // than we need to pass it in the call back function bcz internally if we see than all this methods are taking the call back functions.
+    //so will do 
+    //setCounter(prevCounter => prevCounter +1)
+    //setCounter(prevCounter => prevCounter +1)
+    //setCounter(prevCounter => prevCounter +1)
 }
   const Remove_value= () =>{
     //counter=counter - 1
