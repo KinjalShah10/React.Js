@@ -1,7 +1,7 @@
 import {useState} from "react"
 
 function App() {
-  const [colour,setcolour] = useState("white")
+  const [colour,setcolour] = useState("white") // default value is white
 
   return (
     <div className="w-full h-screen duration-200"
